@@ -288,6 +288,7 @@ span {
   border: 1px solid #927fd1;
   background: #927fd1;
   color: #fff;
+    margin-left:10px;
   text-decoration: none;
 }
 
@@ -643,6 +644,28 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 
 
+#get-started .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 15px;
+  margin-left:25px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+#get-started .btn-get-started:hover {
+  background: transparent;
+  color: #fff;
+}
 
 #get-started {
   background: #fff;
@@ -671,8 +694,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #get-started .feature-block h4 {
     color: #fff;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 27px;
+    font-weight: 400;
       text-transform: none;
   margin-bottom: 20px;
 }
