@@ -81,6 +81,12 @@ span {
   width: 200px;
 }
 
+.img-full {
+
+  height: 100%;
+  width: 100%;
+}
+
 .container-full {
   padding-left: 0;
   padding-right: 0;
@@ -707,6 +713,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 }
 
+
+
+
 #get-started .feature-block p {
     color: #fff;
 }
@@ -723,6 +732,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #get-started .feature-block a:hover {
   color: #b3b3ff;
 }
+
 
 
 /* About Us Section
