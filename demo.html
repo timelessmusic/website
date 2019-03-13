@@ -79,11 +79,17 @@
         <div class="col-md-6 col-lg-12">
           <div class="feature-block">
 
-            <h4>Run Prediction</h4>
+            <h4>Run Predictions</h4>
             <div class="row">
 
               <div class="col-md-6 col-lg-4">
-            <p>Enter Artist's Name</p>
+            <br><h2>Enter Artist's Name</h2>
+            <br>
+
+            <form name="htmlform" method="post" action="toyousender.php">
+
+            <input type="text" name="first_name" placeholder="" required>
+            </form>
 <!-- dropdown for time interval
      dropdown for metric
 -->
@@ -93,14 +99,35 @@
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <p>Enter Metric</p>
+            <br><h2>Enter Metric</h2><br>
+
+            <select id="year">
+                <option value="hide">--- Metric ---</option>
+                <option value="2010">Number of Discontinued Plays at 5 Seconds</option>
+                <option value="2011">Number of Discontinued Plays at 10 Seconds</option>
+                <option value="2012">Number of Discontinued Plays at 20 Seconds</option>
+                <option value="2013">Number of Discontinued Plays at 30 Seconds</option>
+                <option value="2014">Number of Times Song Added To Playlist</option>
+            </select>
+
+
 
 <br><br>
 <a href="demo0.html" class="btn-get-started scrollto">Predict</a>
                 </div>
 
       <div class="col-md-6 col-lg-4">
-          <p>Enter Time Interval</p>
+          <br><h2>Enter Time Interval</h2><br>
+
+
+<select id="mounth">
+    <option value="hide">-- Time Interval --</option>
+    <option value="january" rel="icon-temperature">Day</option>
+    <option value="february">Week</option>
+    <option value="march">Month</option>>
+      <option value="march">Quarter</option>>
+</select>
+
       </div>
     </div>
     </div>
@@ -115,9 +142,9 @@
 
         <div class="col-md-6 col-lg-8">
           <div class="feature-block">
-           <h4>Projected Growth</h4>
+           <h4>Projected Trajectory</h4>
             <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-
+<br><br>
               <a href="#get-started" class="btn-get-started scrollto">Export</a>   <a href="demo0.html" class="btn-get-started scrollto">Recalculate</a>
 
           </div>
@@ -127,7 +154,7 @@
           <div class="feature-block">
 
             <h4>Future Engagement</h4>
-             <p>Next Month</p>
+            <br>
             <div class="container">
               <div class="row">
 
@@ -136,6 +163,7 @@
             <p>0 Likes</p>
             <p>0 Shares</p>
             <p>0 Retweets</p>
+            <br>
     <a href="#get-started" class="btn-get-started scrollto">Export</a>
           </div>
 
@@ -144,6 +172,7 @@
                 <p>0 Subscribers</p>
                 <p>0  Plays</p>
                   <p>&nbsp</p>
+             <br>
             <a href="demo0.html" class="btn-get-started scrollto">Recalculate</a>
 
                 </div>
